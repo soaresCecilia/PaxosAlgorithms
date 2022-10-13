@@ -1,0 +1,241 @@
+Min acceptors:3
+Max acceptors:4
+Scope: Check ChosenValue for 10..10 steps, exactly 2 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 10..10, Time: 6368
+
+Scope: Check ChosenValue for 15..15 steps, exactly 2 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 15..15, Time: 45051
+
+Scope: Check ChosenValue for 20..20 steps, exactly 2 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 20..20, Time: 79671
+
+Scope: Check ChosenValue for 25..25 steps, exactly 2 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 25..25, Time: 141355
+
+Scope: Check ChosenValue for 30..30 steps, exactly 2 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 10..10 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 10..10, Time: 5428
+
+Scope: Check ChosenValue for 15..15 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 15..15, Time: 34578
+
+Scope: Check ChosenValue for 20..20 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 20..20, Time: 113783
+
+Scope: Check ChosenValue for 25..25 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 25..25, Time: Timeout
+
+Scope: Check ChosenValue for 30..30 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 10..10 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 10..10, Time: 14729
+
+Scope: Check ChosenValue for 15..15 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 15..15, Time: 93723
+
+Scope: Check ChosenValue for 20..20 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 20..20, Time: 221968
+
+Scope: Check ChosenValue for 25..25 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 25..25, Time: Timeout
+
+Scope: Check ChosenValue for 30..30 steps, exactly 2 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 10..10 steps, exactly 2 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 10..10, Time: 13654
+
+Scope: Check ChosenValue for 15..15 steps, exactly 2 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 15..15, Time: 80907
+
+Scope: Check ChosenValue for 20..20 steps, exactly 2 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 20..20, Time: Timeout
+
+Scope: Check ChosenValue for 25..25 steps, exactly 2 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 25..25, Time: Timeout
+
+Scope: Check ChosenValue for 30..30 steps, exactly 2 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 10..10 steps, exactly 3 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 10..10, Time: 10589
+
+Scope: Check ChosenValue for 15..15 steps, exactly 3 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 15..15, Time: 93863
+
+Scope: Check ChosenValue for 20..20 steps, exactly 3 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 20..20, Time: 256574
+
+Scope: Check ChosenValue for 25..25 steps, exactly 3 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 25..25, Time: Timeout
+
+Scope: Check ChosenValue for 30..30 steps, exactly 3 Value, exactly 6 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 10..10 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 10..10, Time: 10817
+
+Scope: Check ChosenValue for 15..15 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 15..15, Time: 103217
+
+Scope: Check ChosenValue for 20..20 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 20..20, Time: 297010
+
+Scope: Check ChosenValue for 25..25 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 25..25, Time: Timeout
+
+Scope: Check ChosenValue for 30..30 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 10..10 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 10..10, Time: 24729
+
+Scope: Check ChosenValue for 15..15 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 15..15, Time: 215660
+
+Scope: Check ChosenValue for 20..20 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 20..20, Time: Timeout
+
+Scope: Check ChosenValue for 25..25 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 25..25, Time: Timeout
+
+Scope: Check ChosenValue for 30..30 steps, exactly 3 Value, exactly 8 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 10..10 steps, exactly 3 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 10..10, Time: 32506
+
+Scope: Check ChosenValue for 15..15 steps, exactly 3 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 15..15, Time: Timeout
+
+Scope: Check ChosenValue for 20..20 steps, exactly 3 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 20..20, Time: Timeout
+
+Scope: Check ChosenValue for 25..25 steps, exactly 3 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 25..25, Time: Timeout
+
+Scope: Check ChosenValue for 30..30 steps, exactly 3 Value, exactly 10 Quorum, exactly 3 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 30..30, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 2 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 11..11, Time: 12408
+
+Scope: Check ChosenValue for 16..16 steps, exactly 2 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 16..16, Time: 68485
+
+Scope: Check ChosenValue for 21..21 steps, exactly 2 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 21..21, Time: 104723
+
+Scope: Check ChosenValue for 26..26 steps, exactly 2 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 2 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 31..31, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 11..11, Time: 13795
+
+Scope: Check ChosenValue for 16..16 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 16..16, Time: 78257
+
+Scope: Check ChosenValue for 21..21 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 21..21, Time: 146536
+
+Scope: Check ChosenValue for 26..26 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 6 Vote, Steps: 31..31, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 11..11, Time: 33739
+
+Scope: Check ChosenValue for 16..16 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 16..16, Time: 140175
+
+Scope: Check ChosenValue for 21..21 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 21..21, Time: Timeout
+
+Scope: Check ChosenValue for 26..26 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 2 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 31..31, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 2 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 11..11, Time: 34589
+
+Scope: Check ChosenValue for 16..16 steps, exactly 2 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 16..16, Time: 204761
+
+Scope: Check ChosenValue for 21..21 steps, exactly 2 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 21..21, Time: Timeout
+
+Scope: Check ChosenValue for 26..26 steps, exactly 2 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 2 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 8 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 8 Vote, Steps: 31..31, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 3 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 11..11, Time: 27376
+
+Scope: Check ChosenValue for 16..16 steps, exactly 3 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 16..16, Time: 171365
+
+Scope: Check ChosenValue for 21..21 steps, exactly 3 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 21..21, Time: 314012
+
+Scope: Check ChosenValue for 26..26 steps, exactly 3 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 3 Value, exactly 6 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 6 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 31..31, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 11..11, Time: 32166
+
+Scope: Check ChosenValue for 16..16 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 16..16, Time: 182765
+
+Scope: Check ChosenValue for 21..21 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 21..21, Time: Timeout
+
+Scope: Check ChosenValue for 26..26 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 3 Ballot, exactly 2 Leader, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 3 Ballot, Leader: exactly 2 Leader, Vote: exactly 9 Vote, Steps: 31..31, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 11..11, Time: 62240
+
+Scope: Check ChosenValue for 16..16 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 16..16, Time: Timeout
+
+Scope: Check ChosenValue for 21..21 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 21..21, Time: Timeout
+
+Scope: Check ChosenValue for 26..26 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 3 Value, exactly 8 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 8 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 31..31, Time: Timeout
+
+Scope: Check ChosenValue for 11..11 steps, exactly 3 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 11..11, Time: 71787
+
+Scope: Check ChosenValue for 16..16 steps, exactly 3 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 16..16, Time: Timeout
+
+Scope: Check ChosenValue for 21..21 steps, exactly 3 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 21..21, Time: Timeout
+
+Scope: Check ChosenValue for 26..26 steps, exactly 3 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 26..26, Time: Timeout
+
+Scope: Check ChosenValue for 31..31 steps, exactly 3 Value, exactly 10 Quorum, exactly 4 Acceptor, exactly 4 Ballot, exactly 2 Leader, exactly 12 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: exactly 10 Quorum, Acceptors: exactly 4 Acceptor, Ballot: exactly 4 Ballot, Leader: exactly 2 Leader, Vote: exactly 12 Vote, Steps: 31..31, Time: Timeout

@@ -1,0 +1,145 @@
+Min acceptors:3
+Max acceptors:4
+Scope: Check ChosenValue for 1..9 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..9, Time: 2195
+
+Scope: Check ChosenValue for 1..9 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..9, Time: 7980
+
+Scope: Check ChosenValue for 1..9 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..9, Time: 3121
+
+Scope: Check ChosenValue for 1..9 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..9, Time: 11355
+
+Scope: Check ChosenValue for 1..9 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..9, Time: 4224
+
+Scope: Check ChosenValue for 1..9 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..9, Time: 17041
+
+Scope: Check ChosenValue for 1..9 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..9, Time: 6290
+
+Scope: Check ChosenValue for 1..9 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..9, Time: 24546
+
+Scope: Check ChosenValue for 1..11 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..11, Time: 3649
+
+Scope: Check ChosenValue for 1..11 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..11, Time: 14660
+
+Scope: Check ChosenValue for 1..11 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..11, Time: 6303
+
+Scope: Check ChosenValue for 1..11 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..11, Time: 23582
+
+Scope: Check ChosenValue for 1..11 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..11, Time: 7744
+
+Scope: Check ChosenValue for 1..11 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..11, Time: 31123
+
+Scope: Check ChosenValue for 1..11 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..11, Time: 13262
+
+Scope: Check ChosenValue for 1..11 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..11, Time: 51987
+
+Scope: Check ChosenValue for 1..13 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..13, Time: 6532
+
+Scope: Check ChosenValue for 1..13 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..13, Time: 26473
+
+Scope: Check ChosenValue for 1..13 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..13, Time: 10124
+
+Scope: Check ChosenValue for 1..13 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..13, Time: 37531
+
+Scope: Check ChosenValue for 1..13 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..13, Time: 14534
+
+Scope: Check ChosenValue for 1..13 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..13, Time: 63653
+
+Scope: Check ChosenValue for 1..13 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..13, Time: 22098
+
+Scope: Check ChosenValue for 1..13 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..13, Time: 81157
+
+Scope: Check ChosenValue for 1..15 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..15, Time: 10315
+
+Scope: Check ChosenValue for 1..15 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..15, Time: 41488
+
+Scope: Check ChosenValue for 1..15 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..15, Time: 16253
+
+Scope: Check ChosenValue for 1..15 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..15, Time: 65531
+
+Scope: Check ChosenValue for 1..15 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..15, Time: 22721
+
+Scope: Check ChosenValue for 1..15 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..15, Time: 114079
+
+Scope: Check ChosenValue for 1..15 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..15, Time: 37089
+
+Scope: Check ChosenValue for 1..15 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..15, Time: 167253
+
+Scope: Check ChosenValue for 1..17 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..17, Time: 15317
+
+Scope: Check ChosenValue for 1..17 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..17, Time: 63244
+
+Scope: Check ChosenValue for 1..17 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..17, Time: 25389
+
+Scope: Check ChosenValue for 1..17 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..17, Time: 128410
+
+Scope: Check ChosenValue for 1..17 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..17, Time: 32652
+
+Scope: Check ChosenValue for 1..17 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..17, Time: 171103
+
+Scope: Check ChosenValue for 1..17 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..17, Time: 58881
+
+Scope: Check ChosenValue for 1..17 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..17, Time: 376603
+
+Scope: Check ChosenValue for 1..19 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..19, Time: 20679
+
+Scope: Check ChosenValue for 1..19 steps, exactly 2 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..19, Time: 89898
+
+Scope: Check ChosenValue for 1..19 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 4 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 4 Vote, Steps: 1..19, Time: 38258
+
+Scope: Check ChosenValue for 1..19 steps, exactly 2 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 2 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 6 Vote, Steps: 1..19, Time: 199316
+
+Scope: Check ChosenValue for 1..19 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..19, Time: 49201
+
+Scope: Check ChosenValue for 1..19 steps, exactly 3 Value, 2 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 2 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..19, Time: 259541
+
+Scope: Check ChosenValue for 1..19 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 2 Ballot, exactly 6 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 2 Ballot, Message: exactly 6 Vote, Steps: 1..19, Time: 87895
+
+Scope: Check ChosenValue for 1..19 steps, exactly 3 Value, 3 Quorum, exactly 3 Acceptor, exactly 3 Ballot, exactly 9 Vote
+Label: ChosenValue, Value: exactly 3 Value, Quorum: 3 Quorum, Acceptors: exactly 3 Acceptor, Ballot: exactly 3 Ballot, Message: exactly 9 Vote, Steps: 1..19, Time: 535395

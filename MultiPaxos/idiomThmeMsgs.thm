@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge visible="no" attribute="yes"/>
+
+<node>
+   <type name="Int"/>
+   <type name="M1A"/>
+   <type name="M1B"/>
+   <type name="M2A"/>
+   <type name="M2B"/>
+   <type name="Nop"/>
+   <type name="Phase1A"/>
+   <type name="Phase1B"/>
+   <type name="Phase2A"/>
+   <type name="Phase2B"/>
+   <type name="Preempt"/>
+   <type name="Preemption"/>
+   <type name="Role"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="Bal/Ord"/>
+   <type name="ordering/Ord"/>
+   <type name="seq/Int"/>
+   <type name="Slt/Ord"/>
+   <set name="$scenario1_q" type="Quorum"/>
+</node>
+
+<node color="Gray">
+   <type name="Proposer"/>
+</node>
+
+<node color="Green">
+   <type name="Message"/>
+</node>
+
+<node hideunconnected="no" showlabel="no">
+   <set name="$events" type="Event"/>
+</node>
+
+<node hideunconnected="yes">
+   <type name="Ballot"/>
+</node>
+
+<node hideunconnected="yes" style="Dotted" shape="Ellipse" color="Red">
+   <type name="Event"/>
+</node>
+
+<node visible="no">
+   <type name="Slot"/>
+</node>
+
+<node visible="no" hideunconnected="yes" color="Red">
+   <type name="Value"/>
+</node>
+
+<node visible="yes" hideunconnected="no">
+   <type name="Acceptor"/>
+</node>
+
+<node visible="yes" hideunconnected="no" color="Blue">
+   <type name="Quorum"/>
+</node>
+
+<node visible="yes" hideunconnected="no" showlabel="no" label="">
+   <set name="$nop_happens" type="Event"/>
+</node>
+
+<edge label="$parameters">
+   <relation name="$preempt_happens"> <type name="Event"/> <type name="Proposer"/> </relation>
+</edge>
+
+<edge label="parameters">
+   <relation name="$phase1A_happens"> <type name="Event"/> <type name="Proposer"/> </relation>
+   <relation name="$phase2A_happens"> <type name="Event"/> <type name="Proposer"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes">
+   <relation name="acceptors"> <type name="Quorum"/> <type name="Acceptor"/> </relation>
+   <relation name="bal"> <type name="Message"/> <type name="Ballot"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes" label="parameters">
+   <relation name="$phase1B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+   <relation name="$phase2B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+</edge>
+
+</view>
+
+</alloy>

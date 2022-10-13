@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="M1A"/>
+   <type name="M1B"/>
+   <type name="M2A"/>
+   <type name="M2B"/>
+   <type name="Nop"/>
+   <type name="Phase1A"/>
+   <type name="Phase1B"/>
+   <type name="Phase2A"/>
+   <type name="Phase2B"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="open$3/Ord"/>
+   <type name="ordering/Ord"/>
+   <type name="seq/Int"/>
+   <set name="this/Payload" type="None"/>
+   <set name="this/Payload" type="Value"/>
+   <set name="this/Payload" type="Vote"/>
+   <set name="$chosenValues" type="Value"/>
+   <set name="$oneBallotChosen" type="Ballot"/>
+   <set name="$phase1A_a" type="Acceptor"/>
+   <set name="$phase1B_b" type="Ballot"/>
+   <set name="$phase1B_b&apos;" type="Ballot"/>
+   <set name="$phase2A_q" type="Quorum"/>
+   <set name="$phase2B_b" type="Ballot"/>
+   <set name="$phase2B_b&apos;" type="Ballot"/>
+   <set name="$phase2B_x" type="None"/>
+   <set name="$phase2B_x&apos;" type="None"/>
+   <set name="$scenario2_a1" type="Acceptor"/>
+   <set name="$scenario2_a2" type="Acceptor"/>
+   <set name="$scenario2_b1" type="Ballot"/>
+   <set name="$scenario2_q" type="Quorum"/>
+   <set name="$scenario2_v" type="Value"/>
+</node>
+
+<node hideunconnected="no" showlabel="no">
+   <set name="$events" type="Event"/>
+</node>
+
+<node hideunconnected="yes" style="Dotted" shape="Ellipse" color="Red">
+   <type name="Event"/>
+</node>
+
+<node showlabel="yes">
+   <set name="$phase2A_a" type="Acceptor"/>
+</node>
+
+<node visible="no">
+   <type name="None"/>
+   <type name="Type"/>
+   <type name="Vote"/>
+   <set name="$phase2B_v" type="Vote"/>
+   <set name="$phase2B_v&apos;" type="Vote"/>
+   <set name="$phase2B_x" type="Value"/>
+   <set name="$phase2B_x" type="Vote"/>
+   <set name="$phase2B_x&apos;" type="Value"/>
+   <set name="$phase2B_x&apos;" type="Vote"/>
+</node>
+
+<node visible="no" hideunconnected="yes">
+   <type name="Ballot"/>
+</node>
+
+<node visible="yes" hideunconnected="no" color="Blue">
+   <type name="Quorum"/>
+</node>
+
+<node visible="yes" hideunconnected="no" color="Green">
+   <type name="Acceptor"/>
+</node>
+
+<node visible="yes" hideunconnected="no" showlabel="no" label="">
+   <set name="$nop_happens" type="Event"/>
+</node>
+
+<node visible="yes" hideunconnected="yes" color="Red">
+   <type name="Value"/>
+</node>
+
+<edge color="Green" visible="no" attribute="yes">
+   <relation name="sent"> <type name="Acceptor"/> <type name="Type"/> <type name="Ballot"/> <type name="None"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes">
+   <relation name="acceptors"> <type name="Quorum"/> <type name="Acceptor"/> </relation>
+   <relation name="maxBal"> <type name="Acceptor"/> <type name="Ballot"/> </relation>
+   <relation name="maxVote"> <type name="Acceptor"/> <type name="Vote"/> </relation>
+   <relation name="sent"> <type name="Acceptor"/> <type name="Type"/> <type name="Ballot"/> <type name="Value"/> </relation>
+   <relation name="sent"> <type name="Acceptor"/> <type name="Type"/> <type name="Ballot"/> <type name="Vote"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes" label="parameters">
+   <relation name="$phase1A_happens"> <type name="Event"/> <type name="Ballot"/> </relation>
+   <relation name="$phase1B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+   <relation name="$phase2A_happens"> <type name="Event"/> <type name="Ballot"/> <type name="Value"/> </relation>
+   <relation name="$phase2B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+</edge>
+
+</view>
+
+</alloy>

@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge visible="no" attribute="yes"/>
+
+<node>
+   <type name="AllValuesSafe"/>
+   <type name="AllValuesSafeOrOneValueSafe"/>
+   <type name="CompleteReconfig"/>
+   <type name="Int"/>
+   <type name="LeaderRcvdNewReconfig"/>
+   <type name="M1A"/>
+   <type name="M1B"/>
+   <type name="M2A"/>
+   <type name="M2B"/>
+   <type name="Master"/>
+   <type name="MsgComplete"/>
+   <type name="MsgNewBallot"/>
+   <type name="NewReconfig"/>
+   <type name="Nop"/>
+   <type name="OneValueSafe"/>
+   <type name="Phase1A"/>
+   <type name="Phase1B"/>
+   <type name="Phase2B"/>
+   <type name="Role"/>
+   <type name="RQuorum"/>
+   <type name="StateTransfer"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="WQuorum"/>
+   <type name="open$3/Ord"/>
+   <type name="ordering/Ord"/>
+   <type name="seq/Int"/>
+   <set name="this/Payload" type="Ballot"/>
+   <set name="this/Payload" type="None"/>
+   <set name="this/Payload" type="Value"/>
+   <set name="this/Payload" type="Vote"/>
+   <set name="$allValuesSafe_v" type="Value"/>
+   <set name="$completeReconfig_bal" type="Ballot"/>
+   <set name="$completeReconfig_bal&apos;" type="Ballot"/>
+   <set name="$oneBallotChosen" type="Ballot"/>
+   <set name="$phase1B_bal" type="Ballot"/>
+   <set name="$phase2B_bal" type="Ballot"/>
+   <set name="$phase2B_bal&apos;" type="Ballot"/>
+   <set name="$phase2B_bal&apos;&apos;" type="Ballot"/>
+   <set name="$phase2B_bal&apos;&apos;&apos;" type="Ballot"/>
+   <set name="$phase2B_m2aPayload" type="Ballot"/>
+   <set name="$phase2B_m2aPayload" type="None"/>
+   <set name="$phase2B_m2aPayload" type="Value"/>
+   <set name="$phase2B_m2aPayload" type="Vote"/>
+   <set name="$phase2B_m2aPayload&apos;" type="Ballot"/>
+   <set name="$phase2B_m2aPayload&apos;" type="None"/>
+   <set name="$phase2B_m2aPayload&apos;" type="Value"/>
+   <set name="$phase2B_m2aPayload&apos;" type="Vote"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;" type="Ballot"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;" type="None"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;" type="Value"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;" type="Vote"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;&apos;" type="Ballot"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;&apos;" type="None"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;&apos;" type="Value"/>
+   <set name="$phase2B_m2aPayload&apos;&apos;&apos;" type="Vote"/>
+   <set name="$phase2B_v" type="Vote"/>
+   <set name="$phase2B_v&apos;" type="Vote"/>
+   <set name="$phase2B_v&apos;&apos;" type="Vote"/>
+   <set name="$phase2B_v&apos;&apos;&apos;" type="Vote"/>
+   <set name="$scenario1_a1" type="Acceptor"/>
+   <set name="$scenario1_a2" type="Acceptor"/>
+   <set name="$scenario1_l1" type="Leader"/>
+   <set name="$scenario1_l2" type="Leader"/>
+   <set name="$scenario1_m" type="Master"/>
+   <set name="$stateTransferCompleted_wq" type="WQuorum"/>
+</node>
+
+<node color="Gray">
+   <type name="Leader"/>
+</node>
+
+<node hideunconnected="no" showlabel="no">
+   <set name="$events" type="Event"/>
+</node>
+
+<node hideunconnected="yes" style="Dotted" shape="Ellipse" color="Red">
+   <type name="Event"/>
+</node>
+
+<node style="inherit">
+   <set name="this/RcvdNewBal" type="Leader"/>
+</node>
+
+<node visible="no">
+   <type name="None"/>
+   <type name="Vote"/>
+</node>
+
+<node visible="no" color="Green">
+   <type name="Type"/>
+</node>
+
+<node visible="no" hideunconnected="yes">
+   <type name="Ballot"/>
+</node>
+
+<node visible="yes" hideunconnected="no" color="Blue">
+   <type name="Quorum"/>
+</node>
+
+<node visible="yes" hideunconnected="no" color="Green">
+   <type name="Acceptor"/>
+</node>
+
+<node visible="yes" hideunconnected="no" showlabel="no" label="">
+   <set name="$nop_happens" type="Event"/>
+</node>
+
+<node visible="yes" hideunconnected="yes" color="Red">
+   <type name="Value"/>
+</node>
+
+<node visible="yes" shape="Diamond">
+   <set name="$chosenValue" type="Value"/>
+</node>
+
+<edge label="$parameters">
+   <relation name="$allValuesSafeOrOneValueSafe_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+</edge>
+
+<edge label="parameters">
+   <relation name="$allValuesSafe_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$completeReconfig_happens"> <type name="Event"/> <type name="Master"/> </relation>
+   <relation name="$leaderRcvdNewReconfig_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$newReconfig_happens"> <type name="Event"/> <type name="Master"/> </relation>
+   <relation name="$oneValueSafe_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$phase1A_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$stateTransfer_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+</edge>
+
+<edge style="inherit">
+   <relation name="allPreviousBal"> <type name="Leader"/> <type name="Ballot"/> </relation>
+   <relation name="lCompleteBal"> <type name="Leader"/> <type name="Ballot"/> </relation>
+   <relation name="mCompleteBal"> <type name="Master"/> <type name="Ballot"/> </relation>
+   <relation name="nextBal"> <type name="Master"/> <type name="Ballot"/> </relation>
+   <relation name="previousBal"> <type name="Leader"/> <type name="Ballot"/> </relation>
+   <relation name="safeVal"> <type name="Leader"/> <type name="Value"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes">
+   <relation name="acceptors"> <type name="Quorum"/> <type name="Acceptor"/> </relation>
+   <relation name="maxBal"> <type name="Acceptor"/> <type name="Ballot"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes" label="parameters">
+   <relation name="$phase1B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+   <relation name="$phase2B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+</edge>
+
+</view>
+
+</alloy>

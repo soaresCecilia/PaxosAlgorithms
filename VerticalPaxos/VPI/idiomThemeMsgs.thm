@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view>
+
+<defaultnode/>
+
+<defaultedge visible="no" attribute="yes"/>
+
+<node>
+   <type name="AllValuesSafe"/>
+   <type name="AllValuesSafeOrOneValueSafe"/>
+   <type name="ClientRequest"/>
+   <type name="CompleteReconfig"/>
+   <type name="Int"/>
+   <type name="LeaderRcvdNewReconfig"/>
+   <type name="M1A"/>
+   <type name="M1B"/>
+   <type name="M2A"/>
+   <type name="M2B"/>
+   <type name="Master"/>
+   <type name="MsgClient"/>
+   <type name="MsgComplete"/>
+   <type name="MsgNewBallot"/>
+   <type name="NewReconfig"/>
+   <type name="Nop"/>
+   <type name="OneValueSafe"/>
+   <type name="Phase1A"/>
+   <type name="Phase1B"/>
+   <type name="Phase2B"/>
+   <type name="RQuorum"/>
+   <type name="ServerMessage"/>
+   <type name="StateTransfer"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="WQuorum"/>
+   <type name="open$3/Ord"/>
+   <type name="ordering/Ord"/>
+   <type name="seq/Int"/>
+   <set name="$allValuesSafe_m" type="MsgComplete"/>
+   <set name="$allValuesSafe_m2a" type="M2A"/>
+   <set name="$allValuesSafe_mClient" type="MsgClient"/>
+   <set name="$chosenValues" type="Value"/>
+   <set name="$clientRequest_m" type="MsgClient"/>
+   <set name="$completeReconfig_msgComplete" type="MsgComplete"/>
+   <set name="$completeReconfig_msgComplete&apos;" type="MsgComplete"/>
+   <set name="$leaderRcvdNewReconfig_msgNewBallot" type="MsgNewBallot"/>
+   <set name="$leaderRcvdNewReconfig_msgNewBallot&apos;" type="MsgNewBallot"/>
+   <set name="$newReconfig_msgNew" type="MsgNewBallot"/>
+   <set name="$newReconfig_msgNew&apos;" type="MsgNewBallot"/>
+   <set name="$oneBallotChosen" type="Ballot"/>
+   <set name="$phase1A_m1a" type="M1A"/>
+   <set name="$phase1B_m1a" type="M1A"/>
+   <set name="$phase1B_m1b" type="M1B"/>
+   <set name="$phase2B_m" type="M2A"/>
+   <set name="$phase2B_m&apos;" type="M2A"/>
+   <set name="$phase2B_m2b" type="M2B"/>
+   <set name="$phase2B_m2b&apos;" type="M2B"/>
+   <set name="$scenario3_a1" type="Acceptor"/>
+   <set name="$scenario3_a2" type="Acceptor"/>
+   <set name="$scenario3_l1" type="Leader"/>
+   <set name="$scenario3_l2" type="Leader"/>
+   <set name="$scenario3_m" type="Master"/>
+   <set name="$scenario3_v" type="Value"/>
+</node>
+
+<node color="Gray">
+   <type name="Leader"/>
+</node>
+
+<node hideunconnected="no" showlabel="no">
+   <set name="$events" type="Event"/>
+</node>
+
+<node hideunconnected="yes" style="Dotted" shape="Ellipse" color="Red">
+   <type name="Event"/>
+</node>
+
+<node style="inherit">
+   <set name="this/RcvdNewBal" type="Leader"/>
+</node>
+
+<node style="inherit" color="Green">
+   <type name="BasicMessage"/>
+</node>
+
+<node visible="no" hideunconnected="yes">
+   <type name="Ballot"/>
+</node>
+
+<node visible="yes" hideunconnected="no" color="Blue">
+   <type name="Quorum"/>
+</node>
+
+<node visible="yes" hideunconnected="no" color="Yellow">
+   <type name="Acceptor"/>
+</node>
+
+<node visible="yes" hideunconnected="no" showlabel="no" label="">
+   <set name="$nop_happens" type="Event"/>
+</node>
+
+<node visible="yes" hideunconnected="yes" color="Red">
+   <type name="Value"/>
+</node>
+
+<edge label="$parameters">
+   <relation name="$allValuesSafeOrOneValueSafe_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$clientRequest_happens"> <type name="Event"/> <type name="Value"/> </relation>
+</edge>
+
+<edge label="parameters">
+   <relation name="$allValuesSafe_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$completeReconfig_happens"> <type name="Event"/> <type name="Master"/> </relation>
+   <relation name="$leaderRcvdNewReconfig_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$newReconfig_happens"> <type name="Event"/> <type name="Master"/> </relation>
+   <relation name="$oneValueSafe_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$phase1A_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+   <relation name="$stateTransfer_happens"> <type name="Event"/> <type name="Leader"/> </relation>
+</edge>
+
+<edge style="inherit">
+   <relation name="acceptor"> <type name="M1B"/> <type name="Acceptor"/> </relation>
+   <relation name="acceptor"> <type name="M2B"/> <type name="Acceptor"/> </relation>
+   <relation name="allPreviousBal"> <type name="Leader"/> <type name="Ballot"/> </relation>
+   <relation name="bal"> <type name="ServerMessage"/> <type name="Ballot"/> </relation>
+   <relation name="completeBal"> <type name="MsgNewBallot"/> <type name="Ballot"/> </relation>
+   <relation name="lCompleteBal"> <type name="Leader"/> <type name="Ballot"/> </relation>
+   <relation name="mbal"> <type name="M1B"/> <type name="Ballot"/> </relation>
+   <relation name="mCompleteBal"> <type name="Master"/> <type name="Ballot"/> </relation>
+   <relation name="mval"> <type name="M1B"/> <type name="Value"/> </relation>
+   <relation name="nextBal"> <type name="Master"/> <type name="Ballot"/> </relation>
+   <relation name="prevBal"> <type name="M1A"/> <type name="Ballot"/> </relation>
+   <relation name="previousBal"> <type name="Leader"/> <type name="Ballot"/> </relation>
+   <relation name="safeVal"> <type name="Leader"/> <type name="Value"/> </relation>
+   <relation name="value"> <type name="M2A"/> <type name="Value"/> </relation>
+   <relation name="value"> <type name="M2B"/> <type name="Value"/> </relation>
+   <relation name="value"> <type name="MsgClient"/> <type name="Value"/> </relation>
+   <relation name="votes"> <type name="Acceptor"/> <type name="Ballot"/> <type name="Value"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes">
+   <relation name="acceptors"> <type name="Quorum"/> <type name="Acceptor"/> </relation>
+   <relation name="maxBal"> <type name="Acceptor"/> <type name="Ballot"/> </relation>
+</edge>
+
+<edge visible="no" attribute="yes" label="parameters">
+   <relation name="$phase1B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+   <relation name="$phase2B_happens"> <type name="Event"/> <type name="Acceptor"/> </relation>
+</edge>
+
+</view>
+
+</alloy>
